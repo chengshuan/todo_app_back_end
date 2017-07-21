@@ -28,3 +28,31 @@ ol{
     font-size: 30px;
     padding-left: 350px;
 }
+.fourth{
+    color:pink;
+    text-align: center;
+    font-size:50px;
+    font-family: monospace;
+}
+.first{
+    text-align:center;
+}
+.second{
+    text-align:right;
+}
+.third{
+    color:white;
+    background-color:grey;
+    border-style: dashed;
+    border-color:pink;
+}
+.third:hover{
+    color:yellow;
+}
+.third:active{
+    color:blue;
+}
+.fifth{
+    font-size: 80px;
+    color:orange;
+}

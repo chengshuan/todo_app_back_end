@@ -86,4 +86,9 @@ def show
 end
 def construction
 end
+
+# dai ni qu new de na yi ye
+def new
+end
+
 end

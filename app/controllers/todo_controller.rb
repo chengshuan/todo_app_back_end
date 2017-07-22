@@ -92,11 +92,10 @@ def new
 end
 
 def create
-    t = Todo.new
-    t.description = params['description']
-    t.pomodoro_estimate = params['pomodoro-estimate']
-    t.save
-    redirect_to "/todo/show/#{ t.id }"
+    todo = Todo.new
+    todo.description = params['description']
+    todo.pomodoro_estimate = params['pomodoro-estimate']
+    todo.save 
+    redirect_to "/show/#{todo.id}"
 end
-
 end

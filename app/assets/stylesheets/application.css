@@ -51,8 +51,21 @@ ol{
 }
 .third:active{
     color:blue;
-}
+}    
 .fifth{
     font-size: 70px;
     color:orange;
+}
+.sixth{
+    color:white;
+    background-color:grey;
+    border-style: dashed;
+    border-color:pink;
+    margin-left: 1290px;
+}
+.sixth:hover{
+    color:yellow;
+}
+.sixth:active{
+    color:blue;
 }
